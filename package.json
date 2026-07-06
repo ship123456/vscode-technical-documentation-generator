@@ -1,0 +1,39 @@
+{
+  "name": "vs-documentation-generator",
+  "displayName": "VS Documentation Generator",
+  "description": "Generate structured Markdown documentation for your projects directly inside Visual Studio Code.",
+  "version": "1.0.0",
+  "publisher": "shipra",
+  "type": "commonjs",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "icon": "images/logo.png",
+  "activationEvents": [
+    "onCommand:vsDocsGenerator.open"
+  ],
+  "main": "./src/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "vsDocsGenerator.open",
+        "title": "VS Documentation Generator: Open"
+      }
+    ]
+  },
+  "homepage": "https://github.com/ship123456/vscode-technical-documentation-generator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ship123456/vscode-technical-documentation-generator"
+  },
+  "bugs": {
+    "url": "https://github.com/ship123456/vscode-technical-documentation-generator/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/vscode": "^1.80.0"
+  }
+}
