@@ -8,12 +8,6 @@ Generate structured Markdown documentation for your projects directly inside Vis
 
 ![VS Documentation Generator Demo](images/demo.gif)
 
-## Overview
-
-VS Documentation Generator is a Visual Studio Code extension that simplifies the process of creating project documentation. It provides ready-to-use Markdown templates for common documentation types, allowing developers to generate structured documents directly within their workspace.
-
-The extension automates repetitive setup tasks by creating a dedicated `/docs` folder, generating the selected documentation template, and opening the file for immediate editing. This helps maintain consistent, organized, and easy-to-manage project documentation.
-
 ## Table of Contents
 
 - [Overview](#overview)
@@ -29,6 +23,12 @@ The extension automates repetitive setup tasks by creating a dedicated `/docs` f
 - [Release Notes](#release-notes)
 - [Contributing](#contributing)
 - [License](#license)
+
+## Overview
+
+VS Documentation Generator is a Visual Studio Code extension that simplifies the process of creating project documentation. It provides ready-to-use Markdown templates for common documentation types, allowing developers to generate structured documents directly within their workspace.
+
+The extension automates repetitive setup tasks by creating a dedicated `/docs` folder, generating the selected documentation template, and opening the file for immediate editing. This helps maintain consistent, organized, and easy-to-manage project documentation.
 
 ## Features
 
