@@ -33,7 +33,7 @@ The extension automates repetitive setup tasks by creating a dedicated `/docs` f
 ## Features
 
 - Generate structured Markdown documentation directly within Visual Studio Code
-- Preview the document structure before generating files
+- Preview the section headings of the selected documentation template
 - Add custom project names to generated documentation
 - Automatically create a `/docs` folder in the current workspace
 - Generate ready-to-use Markdown documentation templates
@@ -61,24 +61,6 @@ Before using the extension, ensure you have:
 - A project folder or workspace opened in Visual Studio Code
 
 ## Installation
-
-### Install from the Visual Studio Code Marketplace
-
-1. Open **Visual Studio Code**.
-2. Open the **Extensions** view.
-
-   ```text
-   Ctrl + Shift + X   (Windows/Linux)
-   Cmd + Shift + X    (macOS)
-   ```
-
-3. Search for **VS Documentation Generator**.
-4. Click **Install**.
-5. Open the **Command Palette** and run:
-
-   ```text
-   VS Documentation Generator: Open
-   ```
    
 ### Install from a VSIX Package
 
