@@ -40,6 +40,7 @@ The extension automates repetitive setup tasks by creating a dedicated `/docs` f
 - Open generated documentation files automatically for editing
 - Work directly within the current Visual Studio Code workspace
 - Prevent accidental overwriting of existing documentation files
+- Automatically opens the generated document after creation
 
 ## Supported Templates
 
@@ -69,8 +70,15 @@ Before using the extension, ensure you have:
 3. Open the **Extensions** view.
 4. Select **More Actions (...) → Install from VSIX...**
 5. Choose the downloaded `.vsix` file.
-6. Once the installation is complete, run the following command from the **Command Palette**:
+6. Once the installation is complete, open the **Command Palette**.
 
+   ```text
+   Ctrl + Shift + P   (Windows/Linux)
+   Cmd + Shift + P    (macOS)
+   ```
+   
+7. Run the following command:
+   
    ```text
    VS Documentation Generator: Open
    ```
@@ -134,7 +142,7 @@ Yes. You can generate multiple documentation files using different templates.
 
 ### Can I add a custom project name?
 
-Yes. The project name which you provide is added to the generated documentation title or else a default titlle is given.
+Yes. The project name you provide is added to the generated documentation title. If no project name is provided, a default title is used.
 
 ### Will existing documentation files be overwritten?
 
@@ -164,7 +172,7 @@ Initial release featuring:
 
 - Structured Markdown documentation generation
 - Multiple documentation templates
-- Document structure preview
+- Section heading preview for selected templates
 - Automatic `/docs` folder creation
 - Custom project name support
 - Automatic opening of generated files
