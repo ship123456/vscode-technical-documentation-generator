@@ -54,6 +54,7 @@ The extension can generate the following Markdown documentation templates:
 - API Documentation
 - Release Notes
 
+
 ## Prerequisites
 
 Before using the extension, ensure you have:
@@ -62,26 +63,24 @@ Before using the extension, ensure you have:
 - A project folder or workspace opened in Visual Studio Code
 
 ## Installation
-   
+
 ### Install from a VSIX Package
 
-1. Download the extension's `.vsix` file.
-2. Open **Visual Studio Code**.
+1. Download the extension's `.vsix` file from this repository.
+2. Open Visual Studio Code.
 3. Open the **Extensions** view.
 4. Select **More Actions (...) → Install from VSIX...**
 5. Choose the downloaded `.vsix` file.
-6. Once the installation is complete, open the **Command Palette**.
+6. After installation completes, open the **Command Palette**.
 
-   ```text
-   Ctrl + Shift + P   (Windows/Linux)
-   Cmd + Shift + P    (macOS)
-   ```
-   
-7. Run the following command:
-   
-   ```text
-   VS Documentation Generator: Open
-   ```
+   - **Windows/Linux:** `Ctrl + Shift + P`
+   - **macOS:** `Cmd + Shift + P`
+
+7. Run the command:
+
+```text
+VS Documentation Generator: Open
+```
    
 ## Usage
 
